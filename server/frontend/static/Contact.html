@@ -1,0 +1,80 @@
+<html>
+<head>
+  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-top: 2rem;
+    }
+    h1 {
+      color: darkturquoise;
+      margin-bottom: 1.5rem;
+    }
+    .contact-info {
+      background-color: #f8f9fa;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .contact-info h2 {
+      color: #343a40;
+    }
+    .contact-info p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .contact-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    
+    <h3>If you have any questions, feel free to reach out to us. We're here to help!</h3>
+    <div class="row">
+      <div class="col-md-6 contact-info">
+        <h2>Our Address</h2>
+        <p>1234 Best Cars Avenue,<br> 
+           Car City, Auto State, 56789</p>
+        <h2>Phone</h2>
+        <p>(123) 456-7890</p>
+        <h2>Email</h2>
+        <p>info@bestcars.com</p>
+      </div>
+      <div class="col-md-6 contact-image">
+        <img src="https://media.istockphoto.com/id/480652712/photo/dealer-new-cars-stock.jpg?s=612x612&w=0&k=20&c=Mzfb5oEeovQblEo160df-xFxfd6dGoLBkqjjDWQbd5E=" alt="Contact Us">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
